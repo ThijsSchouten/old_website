@@ -1,0 +1,206 @@
+body {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  padding: 20px;
+  width: 75%;
+  min-width: 490px;
+  max-width: 700px;
+  text-align: left;
+  font-family: "OpenSans", arial;
+}
+
+p {
+  font-family: inherit;
+  line-height: 125%;
+  color: #191919;
+  font-size: 13px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  text-align: justify;
+}
+
+ul {
+  font-family: inherit;
+  line-height: 125%;
+  color: #191919;
+  font-size: 13px;
+  padding: inherit;
+  text-align: justify;
+}
+
+div {
+  padding-top: 5px;
+}
+
+
+li {
+  padding-left: 5px;
+}
+
+li:before {
+  content: "• ";
+}
+
+a {
+  font-family: "OpenSansBold", arial;
+  color: #000;
+  font-size: inherit;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  text-align: justify;
+}
+
+a:link {
+  text-decoration: none;
+  color: #3F3F3F;
+}
+
+a:hover {
+  color: #78B61C;
+}
+
+.paragraph_header {
+  font-family: inherit;
+  color: #191919;
+  font-size: 17px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: justify;
+}
+
+.container {
+  padding-left: 6px;
+}
+
+.legend_img {
+  max-width: 10px
+}
+
+#heat_graph {
+  min-height: 300px;
+}
+
+#regatta_overview {
+  min-height: 660px;
+}
+
+#laneadv {
+  min-height: 1400px;
+}
+
+#laneadvinfo {
+  min-height: 100px;
+}
+
+#laneadv_graph_selector {
+  font-family: inherit;
+  font-size: 12px;
+}
+
+#header1 {
+  font-family: "Merri";
+  color: #1a1c22;
+  font-size: 49px;
+  padding-bottom: 8px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+#sub_header {
+  font-family: "Merri";
+  color: #242730;
+  font-size: 21px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+#tooltip {  
+  font-family: "OpenSans", arial; 
+  color: #FFF;
+  position: absolute;                                                     
+  padding: 4px;             
+  font-size: 10px;        
+  background: #000;   
+  border: 0px;
+  opacity: 0;     
+  border-radius: 3px;               
+}
+
+#explain {
+  padding: 8px;
+  border-style: dotted;
+  border-width: 0.2px;
+  border-color: #d1d1d1;
+  font-family: tahoma;
+  font-size: 12px;
+  text-align: left;
+}
+
+#note {
+  padding: 10px;
+  padding-top: 5px;
+  font-size: 10px;
+  font-family: tahoma;
+  text-align: left;
+}
+
+#footer {
+  font-family: "OpenSansBold", arial;
+  color: #000;
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+  border-top: 1px solid grey;
+}
+
+#mapcontainer {
+  padding-top: 6px;
+  padding-bottom: 12px;
+}
+
+#map {
+  width: 700px;
+  height: 165px;
+}
+
+
+/* Thanks to David Thomas on StackOverflow */
+
+#textarea {
+  display: none;
+  background: #f8f8f8;
+  border-left: 3px solid #78B61C;
+  padding: 0.5em;
+}
+
+#textAreaToggle:checked + #textarea {
+    display: block;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: -1000px;
+}
+label {
+  font-family: "OpenSans", arial;
+  line-height: 125%;
+  color: #191919;
+  font-size: 13px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  text-align: justify;
+  display: block;
+}
+
+#textAreaToggle + #textarea + label::before {
+    content: '▼ more';
+}
+
+#textAreaToggle:checked ~ #textarea + label::before {
+    content: '▲ less';
+}
+
+/* -- */

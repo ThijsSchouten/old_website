@@ -1,0 +1,14 @@
+@font-face {
+   font-family: Merri;
+   src: url(../font/Merriweather-italic.ttf);
+}
+
+@font-face {
+   font-family: OpenSans;
+   src: url(../font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+   font-family: OpenSansBold;
+   src: url(../font/OpenSans-Bold.ttf);
+}

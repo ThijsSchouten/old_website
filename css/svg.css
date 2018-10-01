@@ -1,0 +1,108 @@
+.bar {
+  fill: #0B486B;
+  shape-rendering: crispEdges;
+  opacity: 0.9;
+}
+
+.bar:hover {
+  fill: #FF4500;
+}
+
+.dot_overview {
+  fill: white;
+  /*fill: #0B486B;*/
+  opacity: 1;
+}
+
+.dot_overview:hover {
+  fill: #FF4500;
+}
+
+.stat_overview {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.path_overview {
+  stroke: #0B486B;
+  stroke-width: 8px;
+  stroke-linecap: round;
+  opacity: 0.9;
+}
+
+.path_overview:hover {
+  stroke: #78B61C;
+}
+
+.dot_heat {
+  fill: #0B486B;
+  stroke-width: 0.5px;
+  stroke-location: inside;
+  stroke: white;
+  opacity: 1;
+}
+
+.dot_heat:hover {
+  fill: #FF4500;
+  opacity: 1;
+}
+
+.dot_final {
+  fill: #1b9e77;
+  stroke-width: 0.5px;
+  stroke-location: inside;
+  stroke: white;
+  opacity: 1;
+}
+
+.dot_final:hover {
+  fill: #FF4500;
+  opacity: 1;
+}
+
+
+.rect_laneadv {
+  fill: white;
+}
+
+.rect_laneadv:hover {
+  fill: #E8E8E8;
+
+}
+
+.axis {
+  font: 11px "OpenSans";
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.crew_code {
+  font: 10px "OpenSansBold";
+}
+
+.g_title {
+  font: 13px "OpenSans";
+}
+
+.g_stat {
+  font: 10px "OpenSans";
+}
+
+.g_rose {
+  font: 11px "OpenSans";
+}
+
+.circle_rose {
+  shape-rendering: geometricPrecision;
+}
+
