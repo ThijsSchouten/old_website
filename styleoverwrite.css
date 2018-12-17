@@ -1,3 +1,7 @@
+img {
+    border: none !important
+}
+
 .reveal section img {
-        border: 0px !important
+    border: none !important
 }
